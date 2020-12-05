@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahman_Tutul</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body id="blur">
+    <!-- Header section -->
+    <header class="l-header">
+       <nav class="nav bd-grid">
+         <div>
+             <a href="#" class="nav__logo">Rahman Tutul </a>
+         </div>
+         <div class="nav__menu" id="nav-menu">
+             <ul class="nav__list">
+                 <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                 <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                 <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                 <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                 <li class="nav__item"><a href="#map" class="nav__link">Location</a></li>
+             </ul>
+         </div>
+         <div class="nav__toggle" id="nav-toggle">
+             <i class="bx bx-menu"></i>
+         </div>
+       </nav>
+    </header>
+    <main class="l-main"  id="home">
+        <section class="home bd-grid">
+            <div class="home__data">
+                <h2 class="home__title">Hi, <br> I'm <span class="home__title__color">Tutul</span> <br> Professional<br> Web Designer!</h2>
+                <a href="#" class="button">Contact</a>
+            </div>
+            <div class="home__social">
+                <a href="" class="home__social__icon"><i class="bx bxl-linkedin"></i></a>
+                <a href="" class="home__social__icon"><i class="bx bxl-behance"></i></a>
+                <a href="" class="home__social__icon"><i class='bx bxl-github'></i></a>
+                <a href="" class="home__social__icon"><i class='bx bxl-facebook-circle' ></i></a>
+            </div>
+            <div class="home__img">
+                <img src="./assets/images/tech-banner.jpg" alt="">
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                  <div class="about__img_div">
+                    <img src="./assets/images/81904263_2559511394160124_405260963588079616_o.jpg" class="about__img" alt="" srcset="">
+                  </div>
+                  <div class="about__details">
+                    <p class="about__details"><h2>I’m Mustafijur Rahman,</h2><br>
+
+                        i'm a website designers and developers with an extensive track record to prove it.
+                        As a professional & international designers and developers, I help businesses big and small to beautify their online presence and make their brands stand out in a legendary way. I cover everything from mobile app development, PHP, JavaScript, HTML5, CSS3, WordPress, Laravel, ReactJs, and Bootstrap - taking you from vision to tangible results that deliver.</p>
+                        <h3>Website we make</h3>
+                        E-commerce <br>
+                        Service provider <br>
+                        Personal website <br>
+                        Management system <br>
+                        Learning website <br>
+                        Research website
+                        <h3>Languages</h3>
+                        PHP (Laravel) <br>
+                        JavaScript (ReactJs, JQuery) <br>
+                        HTML5 <br>
+                        CSS3 (Bootstrap) <br>
+                        
+                  </div>
+            </div>
+        </section>
+        <!-- ***WORK SECTION** -->
+
+        <section class="work section" id="work">
+            <h2 class="section-title">Works</h2>
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <a onclick="toggle()">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a onclick="toggle1()">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a onclick="toggle2()">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a onclick="toggle3()">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a onclick="toggle4()">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a onclick="toggle5()">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="modal" id="modal">
+                <div class="header">
+                    <h2 class="section-title">Project Name</h2>
+                </div>
+                <div class="modal__body">
+                    <div class="modal__img">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </div>
+                   <div class="modal__details">
+                       <h2>Details</h2>
+                       <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam incidunt ratione laboriosam, reprehenderit et dolore? Deserunt, minima temporibus! In et deleniti reprehenderit harum soluta modi ducimus sint, eos error dolorum alias debitis ullam perferendis aliquid blanditiis tempora voluptates eveniet</p>
+                   </div>
+                </div>
+                <button class="modal__button" onclick="toggle()">EXIT</button>
+            </div>
+
+
+            <div class="modal" id="modal">
+                <div class="header">
+                    <h2 class="section-title">Project Name</h2>
+                </div>
+                <div class="modal__body">
+                    <div class="modal__img">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </div>
+                   <div class="modal__details">
+                       <h2>Details</h2>
+                       <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam incidunt ratione laboriosam, reprehenderit et dolore? Deserunt, minima temporibus! In et deleniti reprehenderit harum soluta modi ducimus sint, eos error dolorum alias debitis ullam perferendis aliquid blanditiis tempora voluptates eveniet</p>
+                   </div>
+                </div>
+                <button class="modal__button" onclick="toggle1()">EXIT</button>
+            </div>
+
+
+            <div class="modal" id="modal">
+                <div class="header">
+                    <h2 class="section-title">Project Name</h2>
+                </div>
+                <div class="modal__body">
+                    <div class="modal__img">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </div>
+                   <div class="modal__details">
+                       <h2>Details</h2>
+                       <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam incidunt ratione laboriosam, reprehenderit et dolore? Deserunt, minima temporibus! In et deleniti reprehenderit harum soluta modi ducimus sint, eos error dolorum alias debitis ullam perferendis aliquid blanditiis tempora voluptates eveniet</p>
+                   </div>
+                </div>
+                <button class="modal__button" onclick="toggle2()">EXIT</button>
+            </div>
+
+
+            <div class="modal" id="modal">
+                <div class="header">
+                    <h2 class="section-title">Project Name</h2>
+                </div>
+                <div class="modal__body">
+                    <div class="modal__img">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </div>
+                   <div class="modal__details">
+                       <h2>Details</h2>
+                       <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam incidunt ratione laboriosam, reprehenderit et dolore? Deserunt, minima temporibus! In et deleniti reprehenderit harum soluta modi ducimus sint, eos error dolorum alias debitis ullam perferendis aliquid blanditiis tempora voluptates eveniet</p>
+                   </div>
+                </div>
+                <button class="modal__button" onclick="toggle3()">EXIT</button>
+            </div>
+
+
+            <div class="modal" id="modal">
+                <div class="header">
+                    <h2 class="section-title">Project Name</h2>
+                </div>
+                <div class="modal__body">
+                    <div class="modal__img">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </div>
+                   <div class="modal__details">
+                       <h2>Details</h2>
+                       <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam incidunt ratione laboriosam, reprehenderit et dolore? Deserunt, minima temporibus! In et deleniti reprehenderit harum soluta modi ducimus sint, eos error dolorum alias debitis ullam perferendis aliquid blanditiis tempora voluptates eveniet</p>
+                   </div>
+                </div>
+                <button class="modal__button" onclick="toggle4()">EXIT</button>
+            </div>
+
+
+            <div class="modal" id="modal">
+                <div class="header">
+                    <h2 class="section-title">Project Name</h2>
+                </div>
+                <div class="modal__body">
+                    <div class="modal__img">
+                        <img src="./assets/images/books.jpg" alt="">
+                    </div>
+                   <div class="modal__details">
+                       <h2>Details</h2>
+                       <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam incidunt ratione laboriosam, reprehenderit et dolore? Deserunt, minima temporibus! In et deleniti reprehenderit harum soluta modi ducimus sint, eos error dolorum alias debitis ullam perferendis aliquid blanditiis tempora voluptates eveniet</p>
+                   </div>
+                </div>
+                <button class="modal__button" onclick="toggle5()">EXIT</button>
+            </div>
+            
+        </section>
+
+        <!-- =====CONTACT===== -->
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <textarea placeholder="Leave your say!" name="" id="" cols="" rows="10" class="contact__input"></textarea>
+    
+                    <input type="button" value="Enviar" class="contact__button button">
+                </form>
+            </div>
+        </section>
+        <section class="map" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29213.038296130337!2d90.39150903803477!3d23.760577791546847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c783c3404f0d%3A0x76ae0d2edabc81df!2sHatir%20Jheel!5e0!3m2!1sen!2sbd!4v1607015850871!5m2!1sen!2sbd"height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+        <!-- ====Footer=== -->
+        <section class="footer">
+            <p class="footer__title">Rahman Tutul</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/roktim.tutul" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+                <a href="https://instagram/rahmantutul50" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+                <a href="https://mobile.twitter.com/RahmanTutul2" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+            </div>
+            <p class="reserve">&#169; 2020 copyright all right reserved!</p>
+        </section>
+    </main>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/main.js"></script>
+    <script type="text/javascript">
+    function toggle(){
+    var modal = document.getElementById('modal');
+    modal.classList.toggle('show')
+    } 
+    function toggle1(){
+    var modal = document.getElementById('modal');
+    modal.classList.toggle('show')
+    }
+    function toggle2(){
+    var modal = document.getElementById('modal');
+    modal.classList.toggle('show')
+    }
+    function toggle3(){
+    var modal = document.getElementById('modal');
+    modal.classList.toggle('show')
+    }
+    function toggle4(){
+    var modal = document.getElementById('modal');
+    modal.classList.toggle('show')
+    }
+    function toggle5(){
+    var modal = document.getElementById('modal');
+    modal.classList.toggle('show')
+    }
+</script>
+</body>
+</html>
